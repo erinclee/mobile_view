@@ -38,15 +38,8 @@ img {
     border-radius: 30px;
     padding: 10px;
     margin: 20px;
-    align: center;
   }
   
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
    li{
     font-size:20px;
     font-family: "Didot";
@@ -97,13 +90,17 @@ img {
     text-transform: uppercase;
   }
 
-  .thumbnaiL{
+  .Thumbnail{
     border: 5px solid darkgray;
     padding: 20px;
     margin: auto;
     width: 250px;
     display: block;
-  } 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
 
   .current-page {
     text-decoration: underline;
@@ -153,3 +150,4 @@ nav {
   @media (prefers-reduced-motion: reduce) {
     .nav-animation {animation: none;}
   }
+}
